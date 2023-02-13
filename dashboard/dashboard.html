@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+           @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Poppins:wght@500;700;900&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins';
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+    }
+    th{
+        color: pink;
+    }
+    
+</style>
+<body onload="website()">
+    <div class="parent">
+        <h2>PROFILE</h2>
+        <div class="child">
+            <img  id="dashboardImg" height="200" width="200" alt="Tumsy nhi hopaye ga">    
+        </div>
+        <div class="child">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name :</th>
+                    <td id="loginname"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Email :</th>
+                    <td id="loginemail"></td>
+                </tr>
+            </tbody>
+        </table>    
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
